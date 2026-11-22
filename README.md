@@ -5,7 +5,7 @@ This analysis summarises cumulative funding by research area for awards announce
 
 ## Data source and preparation
 
-The source data came from the NHMRC funding outcomes data. The project team manually cleaned the source data in Excel before analysis. The resulting workbook, `2020_2025_NHMRC.xlsx`, is the analysis input. The workflow below starts from this prepared workbook. The R script reads the only worksheet, `Sheet1`, which contains 4,386 award records across all six announcement years. It uses the `APP ID`, `Date Announced`, `Total` and `Field of Research` columns.
+The source data came from the NHMRC funding outcomes data. We manually cleaned the source data in Excel before analysis. The resulting workbook, `2020_2025_NHMRC.xlsx`, is the analysis input. The workflow below starts from this prepared workbook. The R script reads the only worksheet, `Sheet1`, which contains 4,386 award records across all six announcement years. It uses the `APP ID`, `Date Announced`, `Total` and `Field of Research` columns.
 
 ## Reproduce the analysis
 
